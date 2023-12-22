@@ -108,8 +108,7 @@ ol {
 }
 /* Team */
 .team-section {
-  background-color: #F4F4FD
-  text-align: center;
+  background-color: #F4F4FD;
 }
 
 .team-title {
@@ -118,6 +117,7 @@ ol {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
 }
 .team-list {
@@ -130,7 +130,7 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
 }
 
 .team-specialty {
@@ -139,7 +139,7 @@ ol {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
 }
 /* Portfolio */
 
