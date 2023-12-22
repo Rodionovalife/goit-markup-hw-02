@@ -19,7 +19,7 @@ ol {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1 17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -29,8 +29,8 @@ ol {
 .nav-link {
   color: #2e2f42;
   font-size: 16px;
-  line-height: 500;
-  line-height: 1 5;
+  font-weight: 500
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .nav-link:hover,
@@ -44,7 +44,7 @@ ol {
 .address-link {
   color: #434455;
   font-size: 16px;
-  line-height: 1 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .address-link:hover,
@@ -61,13 +61,13 @@ ol {
   font-style: normal;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1 07;
-  letter-spacing: 0 02em;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 .button {
-  border-radius: 4px;
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  color: #ffffff
 }
 .button-text {
   color: #fff;
@@ -75,8 +75,9 @@ ol {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1 5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
@@ -84,18 +85,6 @@ ol {
 }
 /* Main content */
 .content {
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect (0 0 0 0);
-  overflow: hidden;
 }
 .content-list {
 }
@@ -105,19 +94,19 @@ ol {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1 2;
-  letter-spacing: 0 02em;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .content-description {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* Team */
 .team-section {
-  background-color: #f4f4fd;
+  background-color: #FFFFFF;
   text-align: center;
 }
 
